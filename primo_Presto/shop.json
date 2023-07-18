@@ -1,0 +1,102 @@
+[
+    {
+        "url" : "media/coffee-asorted-400x400.jpg",
+        "id": 1,
+        "name": "Assorted Coffee",
+        "category": "Drink",
+        "price": "35.00"
+    },
+    {
+        "url" : "media/sanitizer-400x400.jpg",
+        "id": 2,
+        "name": "Hand Sanitizer",
+        "category": "Beauty",
+        "price": "15.00"
+    },
+    {
+        "url" : "media/red-chillies-400x400.jpg",
+        "id": 3,
+        "name": "Handpicked red chillies",
+        "category": "Food",
+        "price": "19.00"
+    },
+    {
+        "url" : "media/edible-oil-400x400.jpg",
+        "id": 4,
+        "name": "Natura extracted edible oil",
+        "category": "Food",
+        "price": "25.00"
+    },
+    {
+        "url" : "https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2019/06/product11-free-img.jpg",
+        "id": 5,
+        "name": "Lemon",
+        "category": "Food",
+        "price": "5.00"
+    },
+    {
+        "url" : "https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2019/06/product13-free-img.jpg",
+
+        "id": 6,
+        "name": "Salad",
+        "category": "Food",
+        "price":"2.00"
+    },
+    {
+        "url" : "https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2018/06/face-wash-400x400.jpg",
+        "id": 7,
+        "name": "Hand cream",
+        "category": "Beauty",
+        "price":"25.00"
+    },
+    {
+        "url" : "https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2018/06/orage-juice-kariz-300x300.jpg",
+        "id": 8,
+        "name": "Orange juice",
+        "category": "Drink",
+        "price": "7.00"
+    },
+    {
+        "url" : "https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2018/06/face-wash-400x400.jpg",
+        "id": 9,
+        "name": "Organic Face scrub",
+        "category": "Beauty",
+        "price": "25.00"
+    },
+    {
+        "url" : "https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2018/06/cashew-butter-500-300x300.jpg",
+        "id": 10,
+        "name": "Peanut butter",
+        "category": "Food",
+        "price": "35.00"
+    },
+    {
+        "url" : "https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2018/06/organic-honey.jpg",
+        "id": 11,
+        "name": "Natural honey",
+        "category": "Food",
+        "price": "30.00"
+    },
+    {
+        "url" : "https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2018/06/pulses-300x300.jpg",
+        "id": 12,
+        "name": "Organic farm legume",
+        "category": "Flour",
+        "price": "30.00"
+    },
+    {
+        "url" : "https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2018/06/wheat-300x300.jpg",
+        "id": 13,
+        "name": "Wheat Flour",
+        "category": "Flour",
+        "price": "5.23"
+    },
+    {
+        "url" : "https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2018/06/diabetic-cookies.jpg",
+        "id": 14,
+        "name": "Diabetic Cookies",
+        "category": "Food",
+        "price": "70.65"
+    }
+   
+]

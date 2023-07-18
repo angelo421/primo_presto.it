@@ -1,0 +1,82 @@
+*{
+    font-family: 'Merriweather', serif;
+}
+
+:root{
+    --main-green: #2eb758;
+    --main-dark: #111111;
+    --main-grey: #303030;
+}
+
+
+/* Navbar */
+
+.navbar {
+    transition: 0.5;
+    background-color: white;
+}
+
+.bg-button{
+    background-color: var(--main-green);
+}
+
+.margin-header{
+    margin-top: 200px;
+}
+
+
+/* Header */
+
+.button-size-shop{
+    width: 220px ;
+    padding: 15px 40px;
+    color:white;
+}
+
+
+/* sezione contatori */
+
+
+.bg-main-black {
+    background-color: var(--main-dark);
+    padding : 50px 50px
+}
+
+
+.bg-main-grey {
+    background-color: var(--main-grey);
+    width: 250px;
+    color: white;
+    border-radius: 5%;
+}
+
+
+/* ssezione cards */
+.fa-heart {
+    cursor: pointer;
+}
+
+/* swiper */
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+  
+
+
+

@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PRESTO</title>
+    <!-- animation scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- cdn swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <!--  font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!-- our css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top py-0">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">
+                <img src="./media/Logo-presto.png" style="height: 80px;" class="img-fluid" alt="">
+            </a>
+            <button class="navbar-toggler bg-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./shop.html" target="_blank">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#bsproduct">Best Selling Products</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Categories
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Food</a></li>
+                            <li><a class="dropdown-item" href="#">Drink</a></li>
+                            <li><a class="dropdown-item" href="#">Beauty</a></li>
+                            <li><a class="dropdown-item" href="#">Flour</a></li>
+                        </ul>
+                    </li>
+                    
+                </ul>
+                <div class="d-flex justify-content-evenly">
+                    <a class="nav-link mx-2" href="#">About</a>
+                    <a class="nav-link mx-2" href="#">Contact</a>
+                    <a class="nav-link mx-2" href="#">
+                        <i class="fa-solid fa-user fa-lg icon-custom" style="color: #2eb758;"></i>
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="container-fluid margin-header vh-100">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-6" data-aos="fade-right" data-aos-duration="3000">
+                <img src="./media/organic-products-hero.png" alt="img-veggie" class="img-fluid">
+            </div>
+            
+            <div class="col-12 col-md-5 flex-column justify-content-evenly d-flex" >
+                <img src="./media/logo-leaf-new.png" alt="" style="width: 75px;">
+                <h5 class="fw-bold">Best Quality Products</h5>
+                <h1 class="fw-bold display-3">
+                    Join The Organic Movement!
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. 
+                </p>
+                <button type="button" class="btn bg-button button-size-shop"><i class="fa-solid fa-cart-shopping fa-lg me-2" style="color: #ffffff;"></i >SHOP NOW</button>
+                </div>
+            </div>
+        </header>
+        
+        <!-- Inizio main -->
+        <main>
+            <!-- sezione contatori -->
+            <section class="container-fluid bg-main-black d-flex align-items-center">
+                <div class="container">
+                    <div class="row justify-content-evenly">
+                        <div class="col-12 col-md-2 py-3 mb-3 text-center bg-main-grey">
+                            <h3>Since <p id="since">0</p></h3>
+                        </div>
+                        <div class="col-12 col-md-2 py-3 mb-3 text-center bg-main-grey">
+                            <h3>Reviews <p id="reviews">0</p></h3>
+                        </div>
+                        <div class="col-12 col-md-2 py-3 mb-3 text-center bg-main-grey">
+                            <h3>Items sell <p id="items">0</p></h3>
+                        </div>
+                        <div class="col-12 col-md-2 py-3 mb-3 text-center bg-main-grey">
+                            <h3>Products <p id="products">0</p></h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- sezione cards -->
+            <section class="container-fluid mt-5 pt-5">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-12 col-md 6">
+                            <h2 class="fw-bold" id="bsproduct">Best Selling Products</h2>
+                            <img src="./media/logo-leaf-new.png" alt="">
+                        </div> 
+                    </div>
+                    <div class="row cards-wrapper">
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- sezione reviews -->
+            <section class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-8">
+                        <div class="swiper mySwiper text-center">
+                            <h2>Reviews</h2>
+                            <img src="./media/logo-leaf-new.png" alt="" style="width: 75px;">
+                            <div class="swiper-wrapper mt-5">
+                           </div>
+                          </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+       
+
+        <div style="height: 2000px;"></div>
+        
+        <!-- swiper -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        <!-- animation scroll -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <!-- bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+        <!-- our js -->
+        <script src="script.js"></script>
+        <script src="reviews.js"></script>
+        
+    </body>
+    </html>
